@@ -1,0 +1,17 @@
+.baseSection {
+  margin: 0 auto;
+  padding: 15px 30px;
+  width: 1200px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(105, 13, 190);
+}
+
+/* Композиція класів */
+.superSection {
+  composes: baseSection;
+  background-color: rgb(173, 245, 221);
+}
