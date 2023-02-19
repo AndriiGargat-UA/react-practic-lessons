@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.span`
-  color: ${({ isGreen })=> isGreen ? 'green' : 'oranged'};
+  color: ${({ isGreen }) => isGreen ? 'green' : 'oranged'};
 `;
 
 export const Text = styled.p`
@@ -11,7 +11,7 @@ export const Text = styled.p`
   &:hover {
     background-color: tomato;
   }
-  &:hover & {
+  &:hover ${Wrapper} {
     color: yellow;
   }
 `;
